@@ -48,9 +48,7 @@ client.on("message", async message => {
 
             برودكاست عادي : ${prefix}bc
              ادخل بوت : ${prefix}invite
-            معلومات عن السيرفر : ${prefix}server
             برودكاست للأونلاين فقط : ${prefix}bco
-            يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
             رابط سيرفر الدعم الفني : https://discord.gg/SgGqrW
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
